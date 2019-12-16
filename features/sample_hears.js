@@ -29,7 +29,7 @@ module.exports = function(controller) {
     });
 
     controller.hears('หวัดดี','message',async(bot, message) => {
-        await bot.reply(message, 'สวัสดีจ้าาาา')
+        await bot.reply(message, 'สวัสดีจ้าาา')
     });
 
     controller.interrupts('help', 'message', async(bot, message) => {
